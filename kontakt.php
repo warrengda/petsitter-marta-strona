@@ -1,7 +1,7 @@
 <?php
 // Formularz kontaktowy petsitter.marta-olszewska.pl
-// Adres odbiorcy: ten sam co w panelu (src/data/ustawienia.yaml).
-const ODBIORCA = 'petsitter@marta-olszewska.pl';
+// Adres odbiorcy: ten sam co w panelu (src/data/ustawienia.yaml). Nadawca zostaje w domenie (SPF Hostline).
+const ODBIORCA = 'marta.olszewska255@gmail.com';
 const NADAWCA = 'petsitter@marta-olszewska.pl';
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
